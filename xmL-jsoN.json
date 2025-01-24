@@ -1,0 +1,90 @@
+{
+    "devices": [
+
+        {
+            "type": "computer",
+            "name": "Matebook",
+            "company": "Huawei",
+            "inches": 13,
+            "stock": true,
+            "price": {
+
+                "actual_price":780,
+                "currency": "€"
+
+                     },
+
+            "internal_info" : "c:/Documents/files/matebook.json"
+        },
+        
+        {
+            "type": "computer", 
+            "name": "Titan" ,
+            "company": "Slimbook",
+            "inches": 15.6, 
+            "stock": true,
+            "price": {
+
+                "actual_price": 1949,
+                "currency": "€"
+
+                     },
+
+            "slogan" : {
+
+             "slogan_propose1": "Unleash Power in Every Pixel",
+             "slogan_propose2": "Powerhouse Perfomance"
+
+                       }
+        },
+        
+        {
+            "type": "table",
+            "name": "Matepad",
+            "company": "Huawei",
+            "inches": 10.4,
+            "stock": false,
+            "price": {
+
+                "actual_price": null,
+                "currency": "€"
+
+                     },
+
+            "characteristics": {
+                
+                              "charac_1": null
+
+                               }
+        },
+
+        {
+            "type": "smartphone",
+            "name": "P50 Pocket",
+            "company": "Huawei",
+            "inches": 9,
+            "stock": true,
+            "price": {
+
+                "actual_price": 999,
+                "currency": "€",
+                "discount": 29.97,
+                "_coment" : "Monto del descuento que se aplicara"
+
+                     },
+
+            "characteristics": {
+
+                            "charac_1": "500mha battery",
+                            "charac_2": "Super AMOLED Plus",
+                            "charac_3": "USB-C"
+
+                    }
+         }
+
+    ]
+
+        
+    
+
+}

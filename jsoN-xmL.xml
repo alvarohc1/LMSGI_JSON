@@ -1,0 +1,64 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <info_basica>
+    
+    <name> Peter </name>
+    <surname> Jones </surname>
+    <age> 19 </age>
+    <height> 1.78 </height>
+    <job> Informatic </job>
+    <favorite_simile> <3 </favorite_simile>
+    
+    <pets> 
+      
+     <pet number= 1>
+      <cat_name> black cat</cat_name>
+     </pet_description>
+     </pet>
+
+     <pet number=2>
+      <dog_name> chiwawa </dog_name>
+     </pet_description>
+      </pet>
+
+    </pets>
+
+    <adress>
+       <street> Pau Claris </street>
+       <number> 121 </number>
+       <cp> 08012 </cp>  
+    </adress>
+   
+  </info_basica>
+
+  <social_media>
+
+    <instagram>
+     <instagram_user= "Y">
+      <user = "pjones22" > 
+      <email = "pjones22@gmai.com">
+
+     </instagram>
+   
+     <twitter>
+       <twitter_user="N">
+
+     </twitter>
+
+  </social_media>
+ 
+  <friends>
+   
+    <friend number=1>
+        <name> Peter </name>
+        <surname> Jones </surname>
+        <age> 35 </age>
+    </friend>
+
+    <friend number=1>
+        <name> Anna </name>
+        <surname> Smith </surname>
+    </friend>
+    
+  </friends>
