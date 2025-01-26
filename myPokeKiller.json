@@ -1,0 +1,327 @@
+{
+   "pokemons":{ 
+               "id_666": {
+               "Nombre": "Moxicodon",
+               "_comentabout_ilustracion": "algún dia actualizare esta seccion con una ilustracion creada por mi para este pokemon",
+               "generacion" : "Primera",
+               "especie" : "Medicamento",
+               "tipos" : {
+                       "tipo_1": "Normal"
+                       },
+               "Habilidades":{
+                        "habilidad primaria": [
+                                {
+                                        "nombre": "Versatilidad",
+                                        "Efecto": "Los movimientos de tipo Normal sean súper efectivos contra cualquier tipo al que normalmente serían neutrales."
+                                }
+                        ] ,
+
+                        "habilidad oculta": [
+                                {
+                                        "nombre": "Adaptabilidad",
+                                        "Efecto": "Los movimientos que no coinciden con el tipo Normal aumentan su potencia en un 20% "
+                                }
+                        ] 
+                        },
+                
+                "altura": [
+                        {
+                        "numero":1.8,
+                        "unidad":"m"
+                }
+                ],
+                "peso": [
+                        {
+                        "numero":85,
+                        "unidad":"kg"
+                        }
+                ] ,
+
+                "Estadisticas" : [
+                        {
+                        "Velocidad": 8,
+                        "Resistencia": 8,
+                        "Fortaleza": 8,
+                        "Precisión": 9,
+                        "Salto": 1
+                        }
+
+                ],
+                
+                "Movimientos": {
+                        "Golpe Equilibrado": [
+                                {
+                                "Tipo": "Normal - Fisico",
+                                "Exclusivo": true,
+                                "Por Nivel":false,
+                                "Potencia": 80,
+                                "Descripción": "Siempre golpea en un área crítica del enemigo, ignorando habilidades como Levitación o Robustez",
+                                "Contacto": true
+                                }
+                        ],
+
+                        "Ruptura Dimensional": [
+                                {
+                                "Tipo": "Normal - Especial",
+                                "Exclusivo": true,
+                                "Por Nivel":false,
+                                "Potencia": 120,
+                                "Descripción": "Ignora las resistencias del tipo y siempre causa daño neutral",
+                                "Contacto": false
+                                }
+
+                        ],
+                        "Reflejo Antiguo": [
+                                {
+                                "Tipo": "Normal - Apoyo",
+                                "Exclusivo": true,
+                                "Por Nivel":false,
+                                "Potencia": null,
+                                "Descripción":"Copia la habilidad del enemigo y la utiliza como propia durante 5 turnos",
+                                "Contacto": false
+                                }
+                        ],
+                        "Campo Neutral": [
+                                {
+                                "Tipo": "Normal - Apoyo",
+                                "Exclusivo": true,
+                                "Por Nivel":false,
+                                "Potencia": null,
+                                "Descripción": " Elimina cualquier cambio en el campo de batalla, anulando climas, terrenos y otros efectos.",
+                                "Contacto": false
+                                }
+                        ],
+                        "Rayo Hielo": [
+                                {
+                                "Tipo": "Hielo",
+                                "Exclusivo": false,
+                                "Por Nivel":true,
+                                "Potencia": 90,
+                                "Descripción": "Rayo hielo causa daño y tiene una probabilidad 1 en 9 usos de congelar al objetivo",
+                                "Contacto": false
+                                }
+                        ],
+                        "Llamarada": [
+                                {
+                                "Tipo": "Fuego",
+                                "Exclusivo": false,
+                                "Por Nivel":true,
+                                "Potencia": 110,
+                                "Descripción": "Llamarada causa daño y tiene una probabilidad de 1 en 9 usos de quemar al oponente",
+                                "Contacto": false
+                                }
+                        ],
+                        "Pulso Umbrío": [
+                                {
+                                "Tipo": "Siniestro",
+                                "Exclusivo": false,
+                                "Por Nivel":true,
+                                "Potencia": 80,
+                                "Descripción": "Pulso umbrío causa daño y tiene una probabilidad de 2 en 10 usos de amedrentar al objetivo, también afecta en areá",
+                                "Contacto": false
+                                }
+                        ],
+                        "A Bocajarro": [
+                                {
+                                "Tipo": "Lucha",
+                                "Exclusivo": false,
+                                "Por Nivel":true,
+                                "Potencia": 120,
+                                "Descripción": "A bocajarro causa daño y no tiene ningún efecto secundario, pero reduce en un nivel la defensa y la defensa especial del usuario",
+                                "Contacto": true
+                                }
+                        ]
+     
+                },
+                "color": "gris",
+                "figura": "https://images.wikidexcdn.net/mwuploads/wikidex/f/ff/latest/20200214141238/Figura_6.png" ,
+                "grito": null,
+                "Evolucion" : 
+                                      {  
+                                   "Decide_Ev" : true,
+                                   "Posibles_EV": [
+                                        {
+                                                        "Nivel": 998,
+                                                        "Pokemon_Evolve_666": [
+
+                                                {
+                                                        "id_1":{ 
+                                                                "pokemon":"https://www.wikidex.net/wiki/Corviknight"
+                                                        },
+                                                        "id_2":{
+                                                                "pokemon":"https://www.wikidex.net/wiki/Regigigas"
+                                                        },
+                                                        "id_3":{
+                                                                "pokemon":"https://www.wikidex.net/wiki/Ursaluna"
+                                                        }
+                                                }
+
+                                                ]
+                                      }
+                                  ]
+                                }
+
+               },
+
+               "id_667": {
+                        "Nombre": "Forticron",
+                        "_comentabout_ilustracion": "Ilustración pendiente, representará un Pokémon masivo con forma de torre impenetrable.",
+                        "generacion": "Primera",
+                        "especie": "Baluarte",
+                        "tipos": {
+                                "tipo_1": "Roca",
+                                "tipo_2": "Acero"
+                        },
+                        
+                        "Habilidades": {
+                                "habilidad primaria": [
+                                {
+                                        "nombre": "Muralla Eterna",
+                                        "Efecto": "Reduce a la mitad el daño recibido de movimientos súper efectivos."
+                                }
+                                ],
+                                "habilidad oculta": [
+                                {
+                                        "nombre": "Frenesí Defensivo",
+                                        "Efecto": "Por cada 10% de PS perdido, incrementa su Defensa y Defensa Especial en un nivel."
+                                }
+                                ]
+                        },
+                        "altura": [
+                                {
+                                "numero": 3.5,
+                                "unidad": "m"
+                                }
+                        ],
+                        "peso": [
+                                {
+                                "numero": 85,
+                                "unidad": "kg"
+                                }
+                        ],
+                        "Estadisticas": [
+                                {
+                                "Velocidad": 3,
+                                "Resistencia": 10,
+                                "Fortaleza": 10,
+                                "Precisión": 6,
+                                "Salto": 1
+                                }
+                        ],
+                        "Movimientos": {
+                                "Muro Imponente": [
+                                {
+                                        "Tipo": "Roca - Apoyo",
+                                        "Exclusivo": true,
+                                        "Por Nivel": false,
+                                        "Potencia": null,
+                                        "Descripción": "Duplica las estadísticas defensivas del usuario durante 3 turnos.",
+                                        "Contacto": false
+                                }
+                                ],
+                                "Demolición Abismal": [
+                                {
+                                        "Tipo": "Roca - Físico",
+                                        "Exclusivo": true,
+                                        "Por Nivel": false,
+                                        "Potencia": 150,
+                                        "Descripción": "Un poderoso ataque que inflige un gran daño pero reduce la Velocidad del usuario en un nivel.",
+                                        "Contacto": true
+                                }
+                                ],
+                                "Reactor Estático": [
+                                {
+                                        "Tipo": "Eléctrico - Especial",
+                                        "Exclusivo": true,
+                                        "Por Nivel": false,
+                                        "Potencia": 100,
+                                        "Descripción": "Lanza una descarga eléctrica que reduce la Velocidad del enemigo en dos niveles.",
+                                        "Contacto": false
+                                }
+                                ],
+                                "Reflejo de Acero": [
+                                {
+                                        "Tipo": "Acero - Apoyo",
+                                        "Exclusivo": true,
+                                        "Por Nivel": false,
+                                        "Potencia": null,
+                                        "Descripción": "Aumenta la Defensa del usuario y causa que los ataques físicos reboten con el 30% de su potencia al enemigo.",
+                                        "Contacto": false
+                                }
+                                ],
+                                "Terremoto": [
+                                {
+                                        "Tipo": "Tierra",
+                                        "Exclusivo": false,
+                                        "Por Nivel": true,
+                                        "Potencia": 100,
+                                        "Descripción": "Un ataque en área que afecta a todos los enemigos en el campo.",
+                                        "Contacto": false
+                                }
+                                ],
+                                "Avalancha": [
+                                {
+                                        "Tipo": "Roca",
+                                        "Exclusivo": false,
+                                        "Por Nivel": true,
+                                        "Potencia": 75,
+                                        "Descripción": "Si el usuario recibe daño antes de atacar, la potencia se duplica.",
+                                        "Contacto": false
+                                }
+                                ],
+                                "Onda Trueno": [
+                                {
+                                        "Tipo": "Eléctrico",
+                                        "Exclusivo": false,
+                                        "Por Nivel": true,
+                                        "Potencia": null,
+                                        "Descripción": "Paraliza al objetivo con un rayo eléctrico.",
+                                        "Contacto": false
+                                }
+                                ],
+                                "Cabeza Hierro": [
+                                {
+                                        "Tipo": "Acero",
+                                        "Exclusivo": false,
+                                        "Por Nivel": true,
+                                        "Potencia": 80,
+                                        "Descripción": "Un ataque físico con una de probabilidad de 3 de 10 usos de hacer retroceder al objetivo.",
+                                        "Contacto": true
+                                }
+                                ]
+                        },
+                        "color": "plateado",
+                        "figura": "https://images.wikidexcdn.net/mwuploads/wikidex/6/67/latest/20200214141425/Figura_8.png",
+                        "grito": null,
+
+                        "Evolucion" : 
+                                      {  
+                                   "Decide_Ev" : true,
+                                   "Posibles_EV": [
+                                        {
+                                                        "Nivel": 999,
+                                                        "Pokemon_Evolve_667": [
+
+                                                {
+                                                        "id_1":{ 
+                                                                "pokemon":"https://www.wikidex.net/wiki/Roggenrola"
+                                                        },
+                                                        "id_2":{
+                                                                "pokemon":"https://www.wikidex.net/wiki/Stonjourner"
+                                                        },
+                                                        "id_3":{
+                                                                "pokemon":"https://www.wikidex.net/wiki/Copperajah"
+                                                        }
+                                                }
+
+                                                ]
+                                      }
+                                  ]
+                                }
+                                      
+
+                        }
+
+                }
+
+}
